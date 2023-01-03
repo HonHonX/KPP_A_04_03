@@ -53,7 +53,7 @@ float berechneKreisumfang(float r) {
 
 float ausgabeErgebnis(float r) {
   //Ergebnisausgabe
-  printf("\nDer Flächeninhalt des Kreises beträgt %8.2fcm².\n Der Umfang der Kreises beträgt %fcm.\n\n",berechneKreisinhalt(r), berechneUmfang(r));
+  printf("\nDer Flächeninhalt des Kreises beträgt %8.2fcm².\n Der Umfang der Kreises beträgt %fcm.\n\n",berechneKreisinhalt(r), berechneKreisumfang(r));
 }
   
 
