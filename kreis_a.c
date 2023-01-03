@@ -20,7 +20,7 @@ int main () {
   //Eingabe des Radius
 	printf("\n\nBitte geben Sie den Radius des Kreises an (cm): ");
 	scanf("%f", &r);
-	printf("\nDer Flächeninhalt des Kreises beträgt %8.2fcm².\n Der Umfang der Kreises beträgt %fcm.\n\n",PI*r*r, PI*2*r);
+	printf("\nDer Flächeninhalt des Kreises beträgt %.2fcm².\nDer Umfang der Kreises beträgt %.2fcm.\n\n",PI*r*r, PI*2*r);
   
   //Ende
 	return 0;
