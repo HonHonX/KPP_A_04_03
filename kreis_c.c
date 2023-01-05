@@ -8,7 +8,7 @@ int main () {
   */
   
   //Programmtitel
-  printf("\n ****************************************** ");
+	printf("\n ****************************************** ");
 	printf("\n *   ^,,,,^   *                           * ");
 	printf("\n *  ( o x o)  * Kreisflächeninhalt+Umfang * ");
 	printf("\n *  ( 7   7)  *                           * ");
@@ -16,7 +16,8 @@ int main () {
 	printf("\n ****************************************** \n\n");
   
   //Berechnung
-  ausgabeErgebnis(eingabeZahl());
+ 
+	ausgabeErgebnis(eingabeZahl());
   
   //Ende
 	return 0;
