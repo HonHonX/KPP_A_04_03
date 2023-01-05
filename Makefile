@@ -1,6 +1,6 @@
 HEADERS = kreisberechnung.h
 
-default: kreis_a kreis_b kreis_c
+all: kreis_a kreis_b kreis_c
 
 kreis_a: kreis_a.o 
 	gcc kreis_a.o -o kreis_a
