@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include "kreisberechnung.h"
-#define PI 3.141592653589793
 
 //Hauptprogramm
 int main () {
