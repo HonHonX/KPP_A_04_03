@@ -14,9 +14,9 @@ kreis_b: kreis_b.o
 kreis_b.o: kreis_b.c
 	gcc -c kreis_b.c -o kreis_b.o
 	
-kreis_c: kreis_c.o kreisberechnung.o
-	gcc kreis_c.o -o kreis_c
+kreis_c: kreisberechnung.o kreis_c.o 
 	gcc kreisberechnung.o -o kreis_c
+	gcc kreis_c.o -o kreis_c
 
 kreis_c.o: kreis_c.c
 	gcc -c kreis_c.c -o kreis_c.o
