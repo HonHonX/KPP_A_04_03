@@ -19,9 +19,6 @@ kreis_c: kreis_c.o
 
 kreis_c.o: kreis_c.c
 	gcc -c kreis_c.c -o kreis_c.o
-
-kreis_c.c:
-	echo "int main () { return 0; }" > kreis_c.c
 	
 clean: 
 	-rm -f kreis_a.o
