@@ -22,7 +22,7 @@ kreis_c.o: kreis_c.c
 	gcc -c kreis_c.c -o kreis_c.o
 
 kreisberechnung.o: kreisberechnung.c
-	gcc -c kreisberechnung.c kreis_c.o
+	gcc -c kreisberechnung.c -o kreisberechnung.o
 	
 clean: 
 	-rm -f kreis_a.o
