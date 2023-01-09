@@ -17,7 +17,7 @@ kreis_b.o: kreis_b.c
 kreis_c: kreisberechnung.o kreis_c.o 
 	gcc kreisberechnung.o kreis_c.o -o kreis_c
 
-kreis_c.o: kreis_c.c
+kreis_c.o: kreis_c.c $(HEADERS)
 	gcc -c kreis_c.c -o kreis_c.o
 
 kreisberechnung.o: kreisberechnung.c
